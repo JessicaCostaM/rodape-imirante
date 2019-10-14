@@ -1,0 +1,461 @@
+/*
+Theme Name: BlogsOEstado
+Theme URI: http://www.blogsoestado.com
+Description: Tema BlogsOEstado.com.
+Author: Desenvolvimento Web
+Version: 1.0
+*/
+
+.body{
+    color: #000;
+}
+
+.main-content{
+    padding-top: 10px;
+}
+
+.logo-texto {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+}
+.logo-texto span {
+    display: block;
+    font-weight: 400;
+}
+
+.logo {
+    align-items: center;
+    text-align: center;
+    display: inline-block;
+}
+
+@media (min-width: 576px) {
+	.container {
+		max-width: 540px;
+	}
+  .logo-texto {
+      font-size: 70px;
+  }
+  .logo-texto span {
+      display: inline-block;
+      font-weight: 400;
+  }
+}
+
+@media screen and (min-width: 576px){
+    .conteudo {
+        max-width: 576px;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .rodape__logo {
+        width: 250px;
+        margin-top: 4.5px;
+    }
+}
+
+@media (min-width: 768px) {
+	.container {
+		max-width: 720px;
+	}
+}
+
+@media (min-width: 992px) {
+	.container {
+		max-width: 960px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.container {
+		max-width: 1010px;
+	}
+}
+
+@media screen and (min-width: 768px){
+    .portal .p{
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+.post-content {
+	border-bottom: 5px solid #DFDFDF;
+    padding-bottom: 25px;
+    margin-bottom: 10px;
+    text-align: justify;
+    position: relative;
+}
+
+.rodape-meio{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    display: inline-table;
+    width: 100%;
+}
+
+.rodape__logo{
+    width: 250px;
+    margin-top: 4.5px;
+    text-align: center;
+    align-items: center;
+    box-flex: center;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.texto-portal p {
+    color: #fff;
+    text-align: center;
+    border-top: 1px solid #ccc;
+    padding: 10px 0 0;
+    margin: 15px auto;
+    width: 300px;
+}
+
+.menu-footer .item {
+    color: #fff;
+    display: block;
+    float: left;
+    width: 50%;
+    text-align: center;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+@media screen and (min-width: 576px){
+    .menu-footer .item {
+        width: 25%;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .menu-footer .item {
+        width: 12.5%;
+    }
+}
+
+.margin-header{
+    margin-bottom: 40px;
+}
+
+.portal{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+    text-align: center;
+}
+
+.fonte-rodape{
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.rodape-link {
+    color: #fff;
+    display: block;
+    float: left;
+    width: 25%;
+    text-align: center;
+    padding: 10px;
+    line-height: 1;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 15;
+}
+
+.rodape__whatsapp p:before {
+    content: '';
+    padding-right: 34px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    background: url(https://assets.imirante.com/3.1/imagens/whatsapp-x24.svg) no-repeat 0 0 transparent;
+}
+
+a{
+    text-decoration: none;
+    color: #48599b;
+}
+
+a:hover{
+    text-decoration: none;
+    color: #48599b;
+}
+.rodape__whatsapp p {
+    color: #fff;
+    margin: 0;
+    text-decoration: none;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.rodape__whatsapp{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.rodape__redes{
+    text-align: center;
+    margin-top: 30px;
+    text-decoration: #FFFFFF;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.rodape__whatsapp p:before {
+    content: '';
+    padding-right: 34px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    background: url(https://assets.imirante.com/3.1/imagens/whatsapp-x24.svg) no-repeat 0 0 transparent;
+}
+
+a.fonte-rodape{
+    color: #fff;
+    display: block;
+    float: left;
+    text-align: center;
+    padding: 20px;
+    line-height: 1;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+a.rodape__topo:hover {
+    color: #f5f5f5;
+}
+
+.rodape__socialItem {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border-radius: 50px;
+    margin-left: 10px;
+}
+.rodape__socialItem--facebook {
+    background-image: url(https://assets.imirante.com/3.1/imagens/facebook-x24.svg);
+}
+
+.rodape__socialItem--twitter {
+    background-image: url(https://assets.imirante.com/3.1/imagens/twitter-x24.svg);
+}
+
+.rodape__socialItem--instagram {
+    background-image: url(https://assets.imirante.com/3.1/imagens/instagram-x24.svg);
+}
+
+.blog {
+    display: block;
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    z-index: 5;
+    height: 20px;
+}
+
+.rodape-topo{
+    background-color: #282828;
+}
+
+.blog-top {
+    background-image: url('assets/images/topo_bg.jpg');
+	height: 207px;
+	position: relative;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+}
+ 
+.blog-link {
+	display: flex;
+	background-image: url('assets/images/topo.jpg');
+    height: 207px;
+    position: relative;
+    align-items: center;
+}
+
+ #imi-ferramentas {
+  	border: none;
+    clear: both;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    padding: 8px 0;
+    margin: 15px 0;
+}
+
+.comments-button {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+    padding: 0;
+    margin: 0;
+}
+
+.rodape {
+    background-color: #222222;
+}
+
+.footer-copyright{
+    align-content: center;
+    text-decoration-color: white;
+}
+
+.comments-button a.comentarios, .comments-button a.comentarios:hover {
+    background: #48599b;
+    color: #fff;
+    border-radius: 3px;
+}
+.comments-button a.comentarios {
+    display: inline-block;
+    font-family: arial;
+    font-size: 11px;
+    font-weight: bold;
+    height: 21px;
+    line-height: 21px;
+    margin-right: 4px;
+    text-align: center;
+    width: 25px;
+}
+.comments-button span {
+    color: #6A6A6A;
+    font-size: 13px;
+}
+
+.rodape__direitos {
+    padding: 20px;
+    text-align: center;
+    color: #909090;
+    background-color: #282828;
+}
+
+.post-titulo {
+	font-size: 25px;
+	color: #48599b;
+}
+
+.post-titulo:hover {
+    font-size: 25px;
+    color: #48599b;
+}
+
+.post-content {
+	color: #6c6c6c;
+	font-size: 15px;
+}
+
+.buscar {
+	border: 1px solid #3a5795;
+}
+.btn-buscar{
+	background-color: #3a5795;
+	color: white;
+}
+
+.btn-buscar:hover{
+	color: white !important;
+}
+.widget-titulo {
+	border-bottom: 2px solid #3a5795;
+	color: #3a5795;
+	padding-bottom: 5px;
+}
+
+.widget-calendar{
+  color: #000;
+}
+
+.widget a {
+	color: #48599b;
+}
+.widget a:hover{
+	color: #48599b !important;
+}
+.post-meta-data{
+	color: #6c6c6c;
+	font-size: 12px;
+}
+.post-meta-data a{
+    color: #6c6c6c;
+    font-size: 12px;
+}
+.post-meta-data-link{
+	color: #48599b;
+}
+.post-meta-data-link a{
+    color: #48599b;
+}
+.post-meta-data-link:hover {
+    color: #48599b;
+}
+
+#wp-calendar {
+    color: #555555;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+}
+#wp-calendar caption {
+    font-family: arial;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 5px 0 3px;
+    text-transform: uppercase;
+    caption-side: top;
+    text-align: center;
+}
+#wp-calendar th {
+    background: #3a5795;
+    color: #FFFFFF;
+    font-family: arial;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 5px;
+}
+#wp-calendar tfoot td {
+    background: #f4f4f4;
+}
+#wp-calendar td {
+    background: #FFFFFF;
+    border: 1px solid #F0F5F9;
+    font-family: arial;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 5px;
+}
+#wp-calendar td#today {
+    background-color: #F0F5F9;
+}
+#wp-calendar td.pad {
+    background: none;
+}
+#wp-calendar a {
+	color: #3a5795;
+}
+.widget ul {
+	list-style: none;
+    padding-left: 0px;
+}
+#navigation {
+    float: right;
+}
